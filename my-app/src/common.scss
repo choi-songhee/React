@@ -1,6 +1,12 @@
 .container {
   width: var(--container-width-lg);
   margin: 0 auto;
+
+  &--main {
+    position: relative;
+    height: 100%;
+    text-align: center;
+  }
 }
 
 section {
@@ -36,7 +42,6 @@ a, button {
     width: var(--container-width-md);
   }
 }
-
 
 /* mobile device */
 @media screen and (max-width: 600px) {
