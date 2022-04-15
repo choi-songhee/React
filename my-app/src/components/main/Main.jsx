@@ -6,7 +6,7 @@ import profile from '../../assets/me.png'
 
 const Main = () => {
   return (
-    <header className="main">
+    <section className="section main">
       <div className="container container--main">
         <h5>Hello I'm</h5>
         <h1>songhee Choi</h1>
@@ -21,7 +21,7 @@ const Main = () => {
         <a href="#contact" className="scroll-down">Scroll Down</a>
 
       </div>
-    </header>
+    </section>
   )
 }
 

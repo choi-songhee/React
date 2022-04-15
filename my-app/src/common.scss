@@ -1,3 +1,22 @@
+.section {
+  height: 100vh;
+  padding: 50px 0 80px;
+
+  &__title {
+    margin-bottom: 80px;
+    text-align: center;
+    color: #000;
+    font-size: 30px;
+    line-height: 1;
+  }
+
+  &__sub-title {
+    text-align: center;
+    color: #000;
+    font-size: 18px;
+  }
+}
+
 .container {
   width: var(--container-width-lg);
   margin: 0 auto;
@@ -7,15 +26,12 @@
     height: 100%;
     text-align: center;
   }
-}
 
-section {
-  height: 100vh;
-  margin-top: 30px;
-
-  h2 {
-    text-align: center;
-    color: #000;
+  &--contact {
+    display: grid;
+    grid-template-columns: 30% 58%;
+    gap: 10%;
+    width: 80%;
   }
 }
 
