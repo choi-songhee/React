@@ -1,15 +1,12 @@
-import React, {Component} from 'react';
+import React from 'react';
 import './contact.scss'
 
-class Contact extends Component {
-  render() {
-    return (
-      <div>
-        Contact
-      </div>
-    );
-  }
+const Contact = () => {
+  return (
+    <section id="contact">
+      contact
+    </section>
+  )
 }
-
 
 export default Contact;

@@ -1,14 +1,12 @@
-import React, {Component} from 'react';
+import React from 'react';
 import './about.scss'
 
-class About extends Component {
-  render() {
-    return (
-      <div>
-        About
-      </div>
-    );
-  }
+const About = () => {
+  return (
+    <section id="about">
+      about
+    </section>
+  )
 }
 
 export default About;
