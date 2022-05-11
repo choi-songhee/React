@@ -9,7 +9,7 @@ const Main = () => {
     <section className="section main">
       <div className="container container--main">
         <h5>Hello I'm</h5>
-        <h1>songhee Choi</h1>
+        <h1>songhee Choi test</h1>
         <h5 className="text-light">Front-end Developer</h5>
         <CTA />
         <SNS />
