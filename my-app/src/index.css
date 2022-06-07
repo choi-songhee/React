@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Russo+One&display=swap');
 
 /* reset css */
 *{
@@ -29,11 +31,11 @@
 
   --transition: all 400ms ease;
 
-  --color-bg: #f1f6f9;
+  --color-bg: #FEF5ED;
   --color-text: #14274e;
   --color-primary: #1a132f;
 
-  --container-width-lg: 75%;
+  --container-width-lg: 95%;
   --container-width-md: 86%;
   --container-width-ms: 90%;
 }
