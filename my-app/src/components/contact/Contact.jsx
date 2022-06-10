@@ -24,8 +24,7 @@ const Contact = () => {
 
   return (
     <section id="contact" className="section contact">
-      <h5 className="section__sub-title">Get In Touch</h5>
-      <h2 className="section__title">Contact Me</h2>
+      <h2 className="section__title">Contact Me .</h2>
       <div className="container container--contact">
         <div className="contact__group">
           <article className="contact__option">
