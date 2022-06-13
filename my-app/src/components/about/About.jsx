@@ -22,7 +22,7 @@ const About = () => {
       id: '1',
       icon: FaVuejs,
       title: 'FRAMEWORK',
-      desc: 'Vue lifecycle hooks을 이해 및 활용합니다. \n컴포넌트의 개념과 중요성에 대해 잘 알고 있으며, 재활용성을 고려하여 컴포넌트를 설계합니다. \nvue와 react의 문법을 잘 숙지하고 있으며 이를 활용한 화면 구현이 가능합니다.\nwebpack, babel, gulp 등의 태스크러너 및 번들러 사용 경험이 있습니다.'
+      desc: 'Vue lifecycle hooks을 이해 및 활용합니다. \n컴포넌트의 개념과 중요성에 대해 잘 알고 있으며, 재활용성을 고려하여 컴포넌트를 설계하려 노력합니다. \nvue와 react의 문법을 잘 숙지하고 있으며 이를 활용한 화면 구현이 가능합니다.\nwebpack, babel, gulp 등의 태스크러너 및 번들러 사용 경험이 있습니다.'
     },
     {
       id: '2',
@@ -45,7 +45,7 @@ const About = () => {
       <div className="container">
       <h1 className="section__title">About Me .</h1>
       <p className="section__desc">
-        안녕하세요 3년차 웹 프론트엔드 개발자 최송희입니다.<br/>
+        안녕하세요 4년차 웹 프론트엔드 개발자 최송희입니다.<br/>
         항상 새로운 기술에 대한 관심과 배우고자 하는 꾸준한 노력을 바탕으로 
         깔끔하고 직관적인 코드를 작성하며,<br/>
         동료들에게는 함께 일하고 싶고 함께 성장할 수 있는 좋은 사이로,<br/>
