@@ -1,9 +1,11 @@
 .contact {
+  height: auto !important;
+
   &__wrap {
     display: flex;
     align-items: center;
     justify-content: space-around;
-    padding: 5vw 10vw; 
+    padding: 5vw 10vw 12vw; 
   }
 
   &__title {
@@ -15,12 +17,12 @@
 
   &__group {
     flex: 0 0 50%;
-    font-size: 15px;
   }
 
   &__detail {
     display: block;
     margin-top: 20px;
+    font-size: 18px;
     color: red;
     font-weight: bold;
     letter-spacing: 2px;
@@ -63,12 +65,22 @@
     }
   }
 
-
   .copy-text {
     position: absolute;
     bottom: 5vw;
     left: 5vw;
-    font-size: 12px;
+    font-size: 13px;
     color: #ccc;
+  }
+
+  @media screen and (max-width: 720px) {
+    &__wrap {
+      flex-flow: column;
+      align-items: baseline;
+    }
+
+    &__title {
+      margin-bottom: 20px;
+    }
   }
 }

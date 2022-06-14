@@ -61,6 +61,11 @@
       margin-top: 150px;
     }
   }
+
+  &__inner {
+    max-width: 1280px;
+    margin: auto;
+  }
 }
 
 .container { 
@@ -104,6 +109,10 @@ a, button {
 @media screen and (max-width: 1024px) {
   .container {
     width: var(--container-width-md);
+
+    &--main {
+      width: 100% !important;
+    }
   }
 }
 

@@ -10,6 +10,9 @@
   display: flex;
   gap: 15px;
   justify-content: flex-end;
+  position: absolute;
+  top: 50px;
+  right: 5%;
 
   &__link {
     margin-left: 10px;
@@ -23,10 +26,8 @@
   align-items: center;
   gap: 14px;
   position: absolute;
-  // left: 5vw;
-  // bottom: 20vh;
-  top: 1%;
-  left: 0;
+  top: 50px;
+  left: 5%;
 
   &__link {
     color: var(--color-primary);
@@ -48,21 +49,30 @@
 // profile
 .profile {
   overflow: visible;
-  position: absolute;
-  left: calc(50% - 250px);
-  width: 500px;
-  height: 500px;
+  position: relative;
+  left: calc(50% - 21vw);
+  width: 42vw;
+  height: 0;
+  padding-bottom: 45%;
   margin-top: 80px;
-  padding: 50px 100px;
   border-radius: 50% 50% 0 0;
-  background: linear-gradient(#194350, transparent);
+
+  &__bg {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    border-radius: 50% 50% 0 0;
+    background: linear-gradient(#194350, transparent);
+  }
 
   &-text {
     position: absolute;
-    top: 24vh;
+    top: 14vh;
     width: 100%;
     color: #FFBCBC;
-    font-size: 11.5vw;
+    font-size: 10vw;
     white-space: nowrap;
     font-weight: bold;
     line-height: 1.3;

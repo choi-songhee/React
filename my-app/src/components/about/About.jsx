@@ -52,24 +52,26 @@ const About = () => {
         사용자에게는 <span className="c-green">신선한 서비스 경험을 제공하는 FE 개발자</span>를 목표로 합니다. 
       </p>
       <h1 className="section__title">Skills & Tools .</h1>
-      <ul className="tool">
-        {toolLists}
-      </ul>
-      <ul className="skill">
-        {skillLists.map(list => (
-          <li key={list.id} className="skill__detail">
-            <div className="skill__icon">
-              <list.icon />
-            </div>
-            <strong className="skill__title">
-              {list.title}
-            </strong>
-            <p className="skill__desc">
-              {list.desc}
-            </p>
-          </li>
-        ))}
-      </ul>
+      <div className="section__inner">
+        <ul className="tool">
+          {toolLists}
+        </ul>
+        <ul className="skill">
+          {skillLists.map(list => (
+            <li key={list.id} className="skill__detail">
+              <div className="skill__icon">
+                <list.icon />
+              </div>
+              <strong className="skill__title">
+                {list.title}
+              </strong>
+              <p className="skill__desc">
+                {list.desc}
+              </p>
+            </li>
+          ))}
+        </ul>
+      </div>
       </div>
     </section>
   )

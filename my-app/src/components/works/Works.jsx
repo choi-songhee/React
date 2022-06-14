@@ -19,7 +19,7 @@ const Works = () => {
     {
       id: '0',
       image: pj01,
-      url: '#',
+      url: 'https://lghomin.com/',
       title: 'LG HOMIN 운영 프로젝트',
       period: '2022.01 - 2022.04',
       desc: 'LG HOMIN 앱/웹의 기본적인 유지보수와 다양한 기획 요구에 맞는 UI 개선 및 이슈처리를 진행하였습니다.',
@@ -38,6 +38,7 @@ const Works = () => {
       id: '2',
       image: pj03,
       url: '#',
+      isShow: false,
       title: '삼성 SDS 인적자원 Visibility 내부 서비스 구축 프로젝트',
       period: '2021.07 - 2021.09',
       desc: 'Vue.js를 기반으로 한 삼성 SDS 인적자원 내부 서비스 구축 작업을 진행하였습니다.',
@@ -56,6 +57,7 @@ const Works = () => {
       id: '4',
       image: pj05,
       url: '#',
+      isShow: false,
       title: '삼성카드 약관 개선 프로젝트',
       period: '2021.04 - 2021.05',
       desc: '삼성카드 약관 개선 프로젝트에 퍼블리싱 작업을 진행하였습니다.',
@@ -100,7 +102,7 @@ const Works = () => {
     {
       id: '9',
       image: pj10,
-      url: '#',
+      url: 'https://www.junsungki.com/',
       title: '라이나생명 전성기 영상명함 구축',
       period: '2019.09 - 2019.10',
       desc: '라이나 생명 전성기 영상명함에 적용될 템플릿을 디자인 가이드에 맞춰 퍼블리싱하는 작업을 진행하였습니다.',
@@ -148,31 +150,39 @@ const Works = () => {
       
       <div className="container works">
         <h1 className="section__title">Recent Works .</h1>
-        <ul className="project">
-          {projectLists.map(list => (
-            <li key={list.id} className="project__list">
-              <figure className="project__image-wrap">
-                <a href={list.url} target="_blank" className="project__link">
-                  <img src={list.image} alt="" className="project__image" />
+        <div className="section__inner">
+          <ul className="project">
+            {projectLists.map(list => (
+              <li key={list.id} className="project__list">
+                <figure className="project__image-wrap">
+                  <a href={list.url} target="_blank" className="project__link">
+                    <img src={list.image} alt="" className="project__image" />
+                    {
+                      list.isShow === false
+                      ? <div className="dimmed">
+                      보안상의 이유로 홈페이지 노출이 불가능합니다.
+                    </div> : null
+                    }
+                  </a>
                   <figcaption className="project__caption">View Site</figcaption>
-                </a>
-              </figure>
-              <div className="project__info">
-                <strong className="project__title">{list.title}</strong>
-                <span className="project__period">{list.period}</span>
-                <p className="project__desc">
-                  {list.desc}
-                </p>
-                <div className="tech">
-                  {
-                    list.tech.map((sub, subIndex) => <span key={subIndex} className="tech__list">{sub}</span>)
-                  }
+                </figure>
+                <div className="project__info">
+                  <strong className="project__title">{list.title}</strong>
+                  <span className="project__period">{list.period}</span>
+                  <p className="project__desc">
+                    {list.desc}
+                  </p>
+                  <div className="tech">
+                    {
+                      list.tech.map((sub, subIndex) => <span key={subIndex} className="tech__list">{sub}</span>)
+                    }
+                  </div>
                 </div>
-              </div>
-            </li>
-          ))}
-          
-        </ul>
+              </li>
+            ))}
+            
+          </ul>
+        </div>
       </div>
     </section>
   )
