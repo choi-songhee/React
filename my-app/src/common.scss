@@ -8,20 +8,20 @@
     position: relative;
     display: inline-block;
     margin-bottom: 40px;
-    color: #194350;
-    font-size: 30px;
+    color: #465776;
+    font-size: 45px;
     line-height: 1;
-    font-weight: 500;
+    font-weight: bold;
 
     &::after {
       position: absolute;
       content: "";
       z-index: -1;
-      bottom: -2px;
+      bottom: -5px;
       left: -5%;
       width: 110%;
-      height: 14px;
-      background-color: #FFBCBC;
+      height: 20px;
+      background-color: #FFF6F5;
     }
   }
 

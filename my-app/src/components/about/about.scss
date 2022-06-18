@@ -4,12 +4,13 @@
     justify-content: space-between;
 
     &__list {
-        border-bottom: 0.2rem solid #194350;
+        border-bottom: 0.2rem solid #BFA5A4;
         font-weight: 500;
-        line-height: 1;
-        padding: 5px;
-        border-radius: 1rem;
-        color: #194350;
+        line-height: 1.2;
+        padding: 6px 10px;
+        border-radius: 2rem;
+        color: #fff;
+        background-color: #BFA5A4;
     }
 
     @media screen and (max-width: 1024px) {

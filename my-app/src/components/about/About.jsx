@@ -45,7 +45,7 @@ const About = () => {
       <div className="container">
       <h1 className="section__title">About Me .</h1>
       <p className="section__desc">
-        안녕하세요 4년차 웹 프론트엔드 개발자 최송희입니다.<br/>
+        안녕하세요 4년차 퍼블리셔 & 웹 프론트엔드 개발자 최송희입니다.<br/>
         항상 새로운 기술에 대한 관심과 배우고자 하는 꾸준한 노력을 바탕으로 
         깔끔하고 직관적인 코드를 작성하며,<br/>
         동료들에게는 함께 일하고 싶고 함께 성장할 수 있는 좋은 사이로,<br/>
