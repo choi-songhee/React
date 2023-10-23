@@ -68,7 +68,8 @@
     top: 0;
     left: 0;
     border-radius: 50% 50% 0 0;
-    background: linear-gradient(#F28080, transparent);
+    background: linear-gradient(#d96262, transparent);
+    // background: linear-gradient(#f7f7f7, transparent);
   }
 
   &-text {
@@ -93,6 +94,7 @@
       text-align: right;
       color: transparent;
       -webkit-text-stroke: 0.02em rgb(217,98,98);
+      // -webkit-text-stroke: 0.02em rgb(214,80,46);
     }
   }
 }

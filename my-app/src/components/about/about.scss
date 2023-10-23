@@ -1,14 +1,15 @@
 .tool {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: flex-start;
+    gap: 10px;
 
     &__list {
         border-bottom: 0.2rem solid #BFA5A4;
         font-weight: 500;
-        line-height: 1.2;
-        padding: 6px 10px;
-        border-radius: 2rem;
+        line-height: normal;
+        padding: 4px 14px;
+        border-radius: 20px;
         color: #fff;
         background-color: #BFA5A4;
     }
@@ -36,6 +37,8 @@
         margin-bottom: 40px;
         padding: 40px 35px;
         background-color: #fff;
+        border-radius: 20px;
+        box-shadow: 4px 4px 4px 0 rgba(0, 0, 0, 0.1);
     }
 
     &__icon {

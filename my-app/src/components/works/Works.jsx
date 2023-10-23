@@ -133,10 +133,16 @@ const Works = () => {
       <div className="carrer">
         <h5 className="carrer__title">TIMELINE</h5>
         <ul className="carrer__group">
-        <li className="carrer__item">
+          <li className="carrer__item">
+            <strong className="carrer__name">Freelancer</strong>
+            <span className="carrer__period">
+              2022.12 - 2023.12
+            </span>
+          </li>
+          <li className="carrer__item">
             <strong className="carrer__name">Web Agency</strong>
             <span className="carrer__period">
-              GN 글로벌<br/>2019.04 - 2019.07
+              DKI Technology<br/>2022.08 - 2022.11
             </span>
           </li>
           <li className="carrer__item">

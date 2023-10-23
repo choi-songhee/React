@@ -14,7 +14,7 @@
         display: flex;
         align-items: center;
         justify-content: center;
-        margin-top: 30px;
+        margin-top: 40px;
 
         @media screen and (max-width: 720px) {
             flex-flow: column;
@@ -22,9 +22,13 @@
     }
 
     &__item {
+        display: inline-flex;
+        align-items: center;
+        flex-flow: column;
+        justify-content: center;
         flex: 0 0 auto;
-        height: 235px;
-        padding: 70px 100px;
+        height: 205px;
+        padding: 60px 90px;
         background-color: #000;
         border: 1px solid #fff;
     }
